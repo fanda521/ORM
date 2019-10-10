@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/dao=gbk
+encoding//src/entity=gbk
+encoding//src/service/CustomServiceImpl.java=gbk
+encoding//src/servlet/addCustomerEvent.java=gbk
+encoding//src/servlet/addCustomerInfo.java=ISO-8859-1
+encoding//src/servlet/alterCustomerInfo.java=UTF-8
+encoding/<project>=gbk
