@@ -9,15 +9,54 @@
  - 当然该项目不是简单的将数据库的表在java中定义相应的实体类，我们将利用反射机制，注解自动拼接通用的sql语句，这样就不用每次操作一个表时都重写一次sql语句，这样写好了dao层的sql拼接和执行方法，每新建一个表格对它进行相关的数据库操作时，只要建立一个对应的实体类，在类和属性属性上打上自定义的注解就行，而且对于不熟悉sql语句的程序员来说是一个很大的帮助。
 - 拼接sql语句的简单机制主要是通过制定规则，通过获取数据库的表名，表的字段，自动生成相应的sql语句，规则这一部分是利用注解，先对应数据库的表写实体类，实体类的字段上打上自定义的注解，在利用反射生成对应的sql语句，直接调用。
 - 在定义规则上其实有两种方法：1.利用注解 2.通过对实体类命名规则。本项目时使用了第一种方法，读者可以自己实现第二种。只是指定一个规则，别人使用时遵循我们定义的规则就可以直接使用，mybatis和mybatis-plus代码生成器也是利用反射和指定相应的规则实现的。
+- - --
 ## 二，项目运行部署
+- 项目的导入
+读者下载该项目后可以在一下平台运行：Eclipse，STS，IDEA。这几个开发工具都是可以的。
+- 项目中需要修改的地方
+1.dao包下的/web3/src/dao/DbUtil.java文件
 
+```java
+//获取数据库连接
+	/**
+	 * 
+	 * @return 获取数据库连接
+	 */
+	static String url = "jdbc:mysql://127.0.0.1:3306/custom_info";
+	static String user = "root";
+	static String pwd = "331224";
+	static String driver = "com.mysql.jdbc.Driver";
+```
+把数据库的连接地址，用户名，密码修改成读者自己的即可。
+
+- 数据库和相应的sql文件
+我们使用的是mysql数据库，而且版本使用的是5.7的，读者可自行百度下载下关软件。我们使用到的sql文件存放在github仓库对应项目下的sql文件夹下，将里面的文件都导入数据里执行一遍。
+- --
 ## 三，项目详解
+##### 项目结构
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013104530840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013104546689.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)
+- --
 
-    项目结构
-    项目功能
-    项目结构体讲解
-    项目文件读取与写入
-    项目方法详解
+##### 项目包功能讲解
+- dao
+ 数据库的连接工具，sql语句的接口和接口的实现，实现类中完成了反射和sql语句的拼接和执行。
+- --
+- entity
+与数据库中表对应的实体类，实体类已经打上了自定义的注解
+- --
+- orm
+自定义的注解，用于反射拼接sql语句使用
+- --
+- service
+服务类
+- --
+- servlet
+用于处理前台页面的数据和跳转
+- --
+- test
+用预测是反射类和sql语句的拼接和执行
+- --
+
 
 ## 四，效果展示
 ## 五，技术囊括
