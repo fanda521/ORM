@@ -81,9 +81,38 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013133406803.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013133416307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013133425411.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)
 - 用户信息添加效果展示
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013133455503.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013133504289.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)
+- 后台操作日志打印
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191013140301934.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MTcwNTI2,size_16,color_FFFFFF,t_70)
 ## 五，技术囊括
+- java
+- javaweb
+- jsp
+- html
+- css
+- js
+- mysql
 ## 六，问题详解
+
 ## 七，问题反馈
+	如果对该项目由疑问的或者不能够理解的，再或者导入项目运行不成功的可以通过以下方式联系笔者！
+	1.电话号码：13870873449
+	2.qq：1056015243
+	3.邮箱地址：1056015243@qq.com
+	4.github地址：https://github.com/fanda521/StudentManagerSystem
 ## 八，工作进程
+|时间|功能完成  |
+|--|--|
+| 2019年8月6日 |编写数据库连接工具  |
+| 2019年8月7日 | 熟悉java反射机制 |
+| 2019年8月9日 |编写接口和实现类  |
+| 2019年8月10日 | 完善实现类 |
+| 2019年8月12日 | 设计数据库表和创建数据 |
+| 2019年8月13日 | 编写前台登录和密码记住 |
+| 2019年8月15日 | 实现分页 |
+| 2019年8月16日 | 实现用户的增加和修改 |
+| 2019年8月17日 |实现用户记录的增加和修改  |
+| 2019年8月20日 | 实现注销 |
+
 ## 九， 项目源码下载地址
+<https://github.com/fanda521/ORM>
 ## 如果觉得不错就点个赞吧
